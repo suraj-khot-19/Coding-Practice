@@ -1,6 +1,6 @@
 package DSA;
 
-public class BubbleSort {
+public class CWS_01_BubbleSort {
     public static void main(String[] args) {
         int[] arr=new int[]{80,60,70,40,10,-5,-45,8888,-8888};
         int n = arr.length;//length of array

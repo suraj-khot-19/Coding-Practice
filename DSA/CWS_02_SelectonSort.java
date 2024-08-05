@@ -1,7 +1,7 @@
 package DSA;
 class SelectionSort {
     public static void main(String args[]) {
-        int[] arr = new int[] { 10, 20, 30, 0, -45, -120 };
+        int[] arr = { 10, 20, 30, 0, -45, -120 };
         // length of array
         int n = arr.length;
         // for loop till length-1
@@ -21,6 +21,6 @@ class SelectionSort {
         for (int i : arr) {
             System.out.println(i);
         }
-        //-120 -45 0 10 20
+        //output -120 -45 0 10 20
     }
 }
