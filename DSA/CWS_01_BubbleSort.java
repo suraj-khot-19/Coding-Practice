@@ -2,7 +2,7 @@ package DSA;
 
 public class CWS_01_BubbleSort {
     public static void main(String[] args) {
-        int[] arr=new int[]{80,60,70,40,10,-5,-45,8888,-8888};
+        int[] arr={80,60,70,40,10,-5,-45,8888,-8888};
         int n = arr.length;//length of array
         //for loop till length-1
         for(int i=0;i<n-1;i++){

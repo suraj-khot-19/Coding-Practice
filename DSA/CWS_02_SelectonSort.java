@@ -13,7 +13,7 @@ class SelectionSort {
                     smallest = j;
                 }
             }
-            // always swaping number if smaller or not
+            // always swaping number if smaller or not with new value of smallest
             int temp = arr[i];
             arr[i] = arr[smallest];
             arr[smallest] = temp;
