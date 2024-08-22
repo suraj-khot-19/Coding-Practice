@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- inline event -->
+    <button onclick="console.log('button is clicked')" type="button">Click Me!</button>
+    <button ondblclick="console.log('button is twice')" type="button">Click Me twice!</button>
+
+    <!-- handling event using id and js -->
+    <br />
+    <br />
+    <button id="btn1" type="button">Iam handeld by js</button>
+    <div id="div1" style="height: 50px;width: 50px;color: aquamarine;background-color: brown;">
+        Hover me !
+    </div>
+
+    <!-- using event listners -->
+    <br />
+    <br />
+    <button class="btn" type="button">Click Me</button>
+
+    <!-- adding multiple event -->
+    <br />
+    <br />
+    <button class="multievent" onclick="console.log('btn is clicked! using inline event');">i am handed by inline nd js
+        event
+    </button>
+
+    <!-- change theme exersize --> <br />
+    <br />
+    <br />
+    <button id="changeTheme" type="button">changeTheme using js</button>
+    <p>this is my theme changer</p>
+    <button id="changeCssTheme" type="button">changeTheme using css and js </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
