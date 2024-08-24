@@ -1,0 +1,18 @@
+.newClass {
+    text-align: end;
+    text-decoration: line-through;
+}
+
+.p1 {
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: underline;
+    color: green;
+}
+
+.p2 {
+    font-weight: bold;
+    font-family: serif;
+    text-decoration: wavy;
+    color: blueviolet;
+}
