@@ -9,7 +9,7 @@ function asyncFun(data) {
     });
 }
 
-// way 1
+//! way 1
 /*
 let p1 = asyncFun(1).then((res) => { console.log("Response : ", res) });
 let p2 = asyncFun(2).then((res) => { console.log("Response : ", res) });
@@ -45,7 +45,7 @@ asyncFun(1).then((res) => {
 });
 */
 
-// understanding it how working
+//todo: understanding it how working
 console.log("fetching data 1...");
 asyncFun(1).then((res) => {
     console.log("Response : ", res);
