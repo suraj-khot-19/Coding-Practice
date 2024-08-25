@@ -29,3 +29,33 @@ console.log(promise3);
 [[PromiseResult]]: "Cancel"
 !index.js:19 Uncaught (in promise) Cancel
 */
+
+
+// using then and catch we can do promise
+// ! how to deal with sucess 
+function getData1(data) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            resolve("Suceessfully returned data");
+            console.log("data:", data)
+        }, 2000);
+    });
+}
+getData1(1).then((res) => {
+    console.log(res);   //resolve("writen anything here will be treated as result")
+});
+
+// ! to deal with rejected promise we use catch
+function getData2(data) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            reject("cannot return data any error occured");
+            console.log("data:", data)
+        }, 4000);
+    });
+}
+getData2(2).then((res) => {
+    console.log(res);
+}).catch((err) => {
+    console.log(err);
+});
