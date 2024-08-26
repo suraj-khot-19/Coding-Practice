@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Currency Converter</h2>
+        <!-- form -->
+        <form action="">
+            <!-- amount -->
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="100" />
+            </div>
+            <!-- dropdown -->
+            <div class="dropdown">
+
+                <!-- from -->
+                <div class="from">
+                    <p>from</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/US/flat/64.png" alt="img">
+                        <select name="from">
+                            <option value="" selected>AUS</option>
+                            <option value="">INR</option>
+                            <option value="">AMD</option>
+                            <option value="">EUR</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- icon -->
+                <i class="fa-solid fa-rotate"></i>
+
+                <!-- to -->
+                <div class="to">
+                    <p>to</p>
+                    <div class="select-container">
+                        <img src="https://flagsapi.com/IN/flat/64.png" alt="img">
+                        <select name="to">
+                            <option value="" selected>INR</option>
+                            <option value="">AUS</option>
+                            <option value="">AMD</option>
+                            <option value="">Do</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="message">1 usd = 80 inr</div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
